@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import NavBar from './NavBar';
 import { Link } from "react-scroll";
@@ -45,11 +45,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mt-20">
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full my-72"
+            style={{ filter: 'drop-shadow(1px 1px 5px orange)' }}
           />
         </div>
       </div>
